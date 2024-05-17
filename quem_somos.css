@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ECB733;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+.flex{
+    display:flex
+}
+
+
+/*estilo especifico */
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header a{
+    margin-top: 5px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+
+}
+
+header nav ul{
+    list-style-type: none;
+    
+}
+
+header nav{
+    font-size: 20px;
+    background-color: #B44901;
+    border-radius: 20px;
+    height: 30px
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 30px;
+
+}
+.logo{
+    color: white;
+    font-family: "Kode Mono", monospace;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: italic;
+}
+.quem{
+    display: flex;
+    bottom: 0;
+}
+.texto h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.texto p{
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.quem img{
+    display: flex;
+    margin-top: 3%;
+    width: 500px;
+    height: 405px;
+}
+
+@media screen and (max-width: 1020px){
+    
+    header{
+        padding: 30px 2%;
+    }
+    
+    .interface{
+        flex-direction: column;
+    }
+
+    .menu {
+        margin-top: 20px;
+    }
+
+    header nav{
+        font-size: 20px;
+        background-color: #B44901;
+        border-radius: 20px;
+        height: 40px
+    
+    }
+
+    header nav ul li{
+        display: inline-block;
+        padding: 0 20px;
+    
+    }
+
+    header a{
+        margin-top: 10px;
+    }
+
+    .quem{
+        flex-direction: column-reverse;
+    }
+
+    .texto h1{
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .quem p{
+        font-size: 120%;
+        text-align: center;
+        justify-content: center;
+        font-weight: 400;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .quem img{
+        margin-top: 10%;
+        margin-left: 10%;
+        width: 80%;
+        height: 80%;
+    }
+}
