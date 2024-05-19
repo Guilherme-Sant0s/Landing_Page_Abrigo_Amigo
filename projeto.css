@@ -216,10 +216,10 @@ header nav ul li{
     }
 
     header nav{
-        font-size: 20px;
+        font-size: 15px;
         background-color: #B44901;
         border-radius: 20px;
-        height: 40px
+        height: 35px
     
     }
 
@@ -245,6 +245,8 @@ header nav ul li{
     }
 
     .dog p{
+        margin-left: 5%;
+        margin-right: 5%;
         font-size: 120%;
         font-weight: 400;
         text-align: center;
